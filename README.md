@@ -52,7 +52,6 @@ An interactive web application built with Next.js for comparing and visualizing 
 - [How It Works](#how-it-works)
 - [Performance Results](#performance-results)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## 💻 Installation
@@ -129,19 +128,6 @@ yarn start
 **Time Complexity:** O(n²) | **Space:** O(1)
 
 Repeatedly finds the minimum element from the unsorted portion and places it at the beginning.
-
-```javascript
-function selectionSort(arr) {
-  for (let i = 0; i < arr.length - 1; i++) {
-    let minIdx = i;
-    for (let j = i + 1; j < arr.length; j++) {
-      if (arr[j] < arr[minIdx]) minIdx = j;
-    }
-    [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];
-  }
-  return arr;
-}
-```
 
 ### Bubble Sort
 **Time Complexity:** O(n²) | **Space:** O(1)
@@ -301,11 +287,6 @@ Contributions are welcome! Here's how you can help:
 
 ## 🙏 Acknowledgments
 
-### Educational Resources
-- [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) - Thomas H. Cormen et al.
-- [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html) - Donald E. Knuth
-- [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) - Robert Sedgewick & Kevin Wayne
-
 ### Libraries & Tools
 - [Next.js Team](https://nextjs.org/about) for the amazing framework
 - [Recharts Contributors](https://github.com/recharts/recharts) for visualization library
@@ -317,7 +298,7 @@ This project was developed as part of a computer science algorithms course to pr
 
 ## 📧 Contact
 
-**Your Name** - [@yasdev08](https://github.com/yasdev08)
+**Mecherrem Yasser** - [@yasdev08](https://github.com/yasdev08)
 
 **Project Link**: [https://github.com/yasdev08/sorting-algos](https://github.com/yasdev08/sorting-algos)
 
